@@ -1,0 +1,44 @@
+repo: "columns-of-cards"
+canvasCourse: "467502"
+canvasAssignment: "4178305"
+
+naming: true
+commits: 2
+
+html:
+  - path: "index.html"
+    valid: true
+    bestPractices: true
+    has:
+      - "h2"
+      - "h3"
+      - "section"
+      - "div"
+    search:
+      - "Open\\+Sans"
+
+css:
+  - path: "css/main.css"
+    valid: true
+    bestPractices: true
+    has:
+      - ['html', 'box-sizing', 'border-box']
+      - ['body', 'margin', 0]
+      - ['img', 'display', 'block']
+      - ['.btn']
+      - ['.btn:hover']
+      - ['.btn-small']
+    search:
+      - "Open Sans"
+      - "float: left"
+      - "width: 25%"
+      - "#f2f2f2"
+      - "#333"
+      - "#e2e2e2"
+      - "#ccc"
+      - "#aaa"
+      - "#999"
+
+screenshots:
+  - path: "index.html"
+    sizes: [1400]
