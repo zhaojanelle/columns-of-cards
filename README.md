@@ -1,11 +1,12 @@
-# Columns of cards
-
-- Approx. completion time: **1 hour**
-- Deliverables: **1 HTML file, 1 CSS file, images**
-
+---
+summary: "Use the CSS float property to create a column layout with four cards inside."
+time: "1 hour"
+deliverables: "1 HTML file, 1 CSS file, images"
 ---
 
-**Use the CSS float property to create a column layout with four cards inside.**
+# Columns of cards
+
+## Overview
 
 - *Fork this repository.*
 - Write the HTML & CSS needed to create the four column layout.
@@ -17,8 +18,12 @@
 ## Details
 
 - *Typefaces:* `Open Sans`
-- *Text sizes:* `2rem`, `0.875rem`
+- *Text sizes:* `2rem`, `.875rem`
+- *Line height:* `1.5`
 - *Colours:* `#f2f2f2`, `#333`, `#e2e2e2`, `#ccc`, `#aaa`, `#999`
+- *Paddings:* `1.5rem`, `.75rem`
+- *Margins:* `0`, `0 auto 1.5rem`, `0 0 1.5rem`
+- *Image width:* `100px`
 
 *The button is `.btn` & `.btn-small` from our buttons exercise.*
 
@@ -37,7 +42,6 @@ Visually match the images in the “screenshots” folder and create the interac
 
 Drop this folder into your Markbot application. Make sure to fix all the errors. And submit to Canvas using Markbot.
 
----
 ---
 
 ## Optional challenges

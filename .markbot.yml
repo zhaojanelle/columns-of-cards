@@ -1,21 +1,35 @@
 repo: "columns-of-cards"
-canvasCourse: "467502"
-canvasAssignment: "4178305"
+canvasCourse: "web-dev-1"
 
 naming: true
-commits: 2
+restrictFileTypes: true
+liveWebsite: true
+
+git:
+  numCommits: 2
+  allCommitted: true
+  allSynced: true
 
 html:
   - path: "index.html"
     valid: true
     bestPractices: true
     has:
-      - "h2"
+      - ['link[href*="Open+Sans"]', 'The Google Font, `Open Sans` is missing']
+      - ['h2', 'An `<h2>` makes sense in this situation because this is part of a larger website.']
       - "h3"
       - "section"
       - "div"
+      - 'a.btn.btn-small'
     search:
-      - "Open\\+Sans"
+      - 'The Quest for Anderon'
+      - 'Tabatha R. Barrett'
+      - 'Dinosaur Knights'
+      - 'Thomas S. Hedegaard'
+      - 'The Black Dragon'
+      - 'Hana Čejková'
+      - 'Light Speed Laser Ships'
+      - 'Felicity Orta Olivárez'
 
 css:
   - path: "css/main.css"
@@ -23,6 +37,7 @@ css:
     bestPractices: true
     has:
       - ['html', 'box-sizing', 'border-box']
+      - ['*', 'box-sizing', 'inherit']
       - ['body', 'margin', 0]
       - ['img', 'display', 'block']
       - ['.btn']
