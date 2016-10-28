@@ -1,8 +1,86 @@
 html {
   box-sizing: border-box;
-  font-family: font-family: "Open Sans", sans-serif;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+cite {
+  font-style: italic;
+}
+
+.cards {
+  padding: .75rem;
+  float: left;
+  width: 25%;
+  margin: 0;
+  font-size: .875rem;
+  text-align: center;
+}
+
+.Anderon {
+  background-color: #e2e2e2;
+}
+
+.Knights {
+  background-color: #ccc;
+}
+
+.Dragon {
+  background-color: #aaa;
+}
+
+.Ships {
+  background-color: #999;
+}
+
+img {
+  width: 100px;
+  display: inline;
+}
+
+.image {
+  text-align: center;
+  display: inline-block;
+}
+
+.content {
+  display: inline-block;
+  text-align: left;
+  margin: 0 auto 1.5rem;
+}
+
+.btn {
+  text-align: left;
+  display: block;
+  margin: 0 0 1.5rem;
+}
+
+.btn-small {
+  padding: .6rem .75rem;
+  color: #f2f2f2;
+  background-color:#333;
+  border-radius: 7px;
+}
+
+a,a:link {
+  text-decoration: none;
+}
+
+a:hover {
+  background-color: #000;
 }
