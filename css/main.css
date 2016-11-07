@@ -45,7 +45,7 @@ p {
   width: 25%;
   margin: 0;
   text-align: center;
-  min-height: 27rem;
+  min-height: 26rem;
 }
 
 .anderon {
@@ -91,15 +91,15 @@ img {
 }
 
 .btn-small {
-  font-size: 0.875rem;
-  padding-top: 0.3em;
-  padding-bottom: 0.3em;
+  font-size: .875rem;
+  padding-top: .3em;
+  padding-bottom: .3em;
 }
 
 .btn {
   display: inline-block;
   text-decoration: none;
-  padding: 0.4em 0.75em;
+  padding: .4em .75em;
   border: 3px solid #333;
   border-radius: 9px;
   color: #fff;
