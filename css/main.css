@@ -2,14 +2,17 @@ html {
   box-sizing: border-box;
   font-family: "Open Sans", sans-serif;
   line-height: 1.5;
-  padding: 0;
-  margin: 0;
-  background-color: #f2f2f2;
-  font-size: 1rem
 }
 
 *, *::before, *::after {
   box-sizing: inherit;
+}
+
+body {
+  background-color: #f2f2f2;
+  font-size: 1rem;
+  padding: 0;
+  margin: 0;
 }
 
 h1 {
@@ -23,10 +26,12 @@ h2 {
   margin: 0;
 }
 
-cite {
+h3 {
   font-style: italic;
   display: block;
   font-size: .875rem;
+  margin: 0;
+  font-weight: normal;
 }
 
 p {
@@ -43,22 +48,22 @@ p {
   min-height: 27rem;
 }
 
-.Anderon {
+.anderon {
   background-color: #e2e2e2;
   border-left: 1px solid #000;
 }
 
-.Knights {
+.knights {
   background-color: #ccc;
   border-left: 1px solid #000;
 }
 
-.Dragon {
+.dragon {
   background-color: #aaa;
   border-left: 1px solid #000;
 }
 
-.Ships {
+.ships {
   background-color: #999;
   border-left: 1px solid #000;
   border-right: 1px solid #000;
@@ -66,7 +71,7 @@ p {
 
 img {
   width: 100px;
-  display: inline;
+  display: block;
   margin: 0 auto 1.5rem;
 }
 
@@ -78,27 +83,33 @@ img {
 .content {
   display: inline-block;
   text-align: left;
-  margin: 0 auto 2rem;
+  margin: 0 auto 1.5rem;
 }
 
-.btn {
+.buttons {
   text-align: left;
-  display: block;
-  margin: 0 0 1.5rem;
 }
 
 .btn-small {
-  padding: .6rem .75rem;
-  color: #fff;
-  background-color:#333;
-  border-radius: 7px;
-  font-size: .875rem;
+  font-size: 0.875rem;
+  padding-top: 0.3em;
+  padding-bottom: 0.3em;
 }
 
-a,a:link {
+.btn {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.4em 0.75em;
+  border: 3px solid #333;
+  border-radius: 9px;
+  color: #fff;
+  background-color: #333;
+}
+
+a, a:link {
   text-decoration: none;
 }
 
-a:hover {
+.btn:hover {
   background-color: #000;
 }
